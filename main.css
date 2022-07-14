@@ -231,6 +231,97 @@ body {
 /*Portfolio*/
 
 
+.portfolio {
+    width: 1180px;
+}
+
+.portfolio__title {
+    text-align: center;
+    font-size: 45px;
+    color:#b4b4b4;
+    font-family: 'Albert Sans', sans-serif;
+    margin: 0 0 40px 0;
+
+}
+.portfolio__container {
+    display: flex;
+    margin: 0 0 30px 0;
+    width: 100%;
+    justify-content: space-between;
+}
+.portfolio__form {
+    display:flex;
+    position: relative;
+}
+
+.portfolio__form img {
+    min-width: 300px;
+    height: 201px;
+    filter:brightness(50%);
+}
+.portfolio__block {
+    background-color: #b69b67;
+    width: 267px;
+    height: 201px;
+    color:#2b2b2b;
+    font-family: 'Albert Sans', sans-serif;
+    padding: 15px 0 0 20px;
+    position: relative;
+
+}
+.portfolio__subtitle {
+    font-size: 20px;
+}
+.portfolio__line {
+    background-color:#2b2b2b;
+    height: 1px;
+    width: 180px;
+    position: absolute;
+    left: 0;
+    top: 58px;
+}
+.portfolio__about {
+    margin: 60px 10px 0 0;
+}
+.portfolio__undertext {
+    text-align: right;
+    margin: 20px 10px 0 0;
+}
+
+#undertext3 {
+    margin: 10px 10px 0 0;
+}
+
+#portfolio__purchase-button {
+    position: absolute;
+    background-color: #000;
+    color:aliceblue;
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    left: 35%;
+    top: 35%;
+    display: none;
+}
+
+.portfolio__form:hover #portfolio__purchase-button {
+    display: block;
+}
+
+#portfolio__purchase-button:hover {
+    background-color: #b69b67;
+    transition: 0.4s;
+    border: solid;
+    border-color: #000;
+    border-width: 2px;
+    color:#2b2b2b;
+}
+
+.portfolio__form:hover {
+    filter:blur(2px);
+    transition: .4s;
+}
 
 /* Info */
 
